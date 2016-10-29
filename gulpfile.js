@@ -47,7 +47,7 @@ gulp.task("watch",function(){
 
 //刷新页面
 gulp.task("htmlReload",function(){
-	gulp.src("src/public/html/*.html").pipe(connect.reload());
+	gulp.src("dest/html/*.html").pipe(connect.reload());
 })
 
 
